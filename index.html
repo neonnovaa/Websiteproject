@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Architecture Website</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to bottom, #000428, #004e92);
+      color: white;
+      text-align: center; ''
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+    }
+
+    .bubbles {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .bubble {
+      background: white;
+      color: black;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .bubble:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+      background-color: #f7f7f7;
+      color: #004e92;
+    }
+
+    section:nth-of-type(odd) {
+      background-color: #f4f4f4;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #002f61;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #aaa;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Architecture</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+        <li class="nav-item"><a class="nav-link" href="styles.html">Styles</a></li>
+        <li class="nav-item"><a class="nav-link" href="architects.html">Architects</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <h1>Welcome to the World of Architecture</h1>
+  <p>Explore timeless designs and iconic structures through an interactive experience.</p>
+  <div class="bubbles">
+    <a href="#history" class="bubble">History</a>
+    <a href="#styles" class="bubble">Styles</a>
+    <a href="#architects" class="bubble">Architects</a>
+    <a href="#gallery" class="bubble">Gallery</a>
+  </div>
+</header>
+
+<section id="introduction">
+  <h2>Introduction</h2>
+  <p>
+    Architecture is the art and science of designing and constructing buildings and spaces. Over centuries, architecture has evolved to reflect the culture, technology, and creativity of societies, shaping the world around us. From ancient wonders to modern skyscrapers, architecture tells the story of humanity.
+  </p>
+</section>
+
+<section id="history">
+  <h2>History</h2>
+  <p>
+    The history of architecture spans from prehistoric times to the present day. Ancient civilizations like Egypt and Mesopotamia built massive temples and pyramids. The Greeks and Romans contributed classical styles that emphasized symmetry and proportion, while the Gothic period introduced innovations like pointed arches and flying buttresses.
+    <a href="history.html">Read more</a>
+  </p>
+</section>
+
+<section id="styles">
+  <h2>Architectural Styles</h2>
+  <p>
+    Architecture is defined by diverse styles, from the ornate Baroque to minimalist Modernism. Each style reflects the cultural and technological advancements of its era. Styles like Gothic, Renaissance, and Modernism continue to influence contemporary designs.
+    <a href="styles.html">Read more</a>
+  </p>
+</section>
+
+<section id="architects">
+  <h2>Notable Architects</h2>
+  <p>
+    Architects are the creative minds behind iconic structures. Figures like Frank Lloyd Wright, Zaha Hadid, and Le Corbusier revolutionized design principles and left a lasting legacy. Their works showcase a blend of innovation, functionality, and artistry.
+    <a href="architects.html">Read more</a>
+  </p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p>
+    Discover stunning architectural marvels from around the globe. From the Taj Mahal to the Eiffel Tower, our gallery showcases the diversity and beauty of architectural designs.
+    <a href="gallery.html">View gallery</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Architecture Website</p>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms & Conditions</a>
+  <a href="about.html">About Us</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

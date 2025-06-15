@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecture Gallery</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background: linear-gradient(to bottom, #000428, #004e92);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .gallery-section {
+      padding: 60px 20px;
+    }
+
+    .gallery-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .gallery-item:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .gallery-item img {
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .gallery-item .gallery-text {
+      width: 50%;
+      padding: 20px;
+    }
+
+    .gallery-item h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .gallery-item p {
+      font-size: 1rem;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Architecture</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+        <li class="nav-item"><a class="nav-link" href="styles.html">Styles</a></li>
+        <li class="nav-item"><a class="nav-link" href="architects.html">Architects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Header -->
+<header>
+  <h1>Architecture Gallery</h1>
+  <p>Explore iconic structures that define architectural history.</p>
+</header>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+  <!-- Item 1 -->
+  <div class="gallery-item">
+    <img src="lotus_temple.jpg" alt="Lotus Temple">
+    <div class="gallery-text">
+      <h2>Lotus Temple, India</h2>
+      <p>
+        A Baha'i House of Worship (1986), designed to resemble a blooming lotus flower. It symbolizes purity and unity.
+      </p>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="gallery-item">
+    <img src="sagrada_familia.jpg" alt="Sagrada Família">
+    <div class="gallery-text">
+      <h2>Sagrada Família, Spain</h2>
+      <p>
+        Antoni Gaudí’s monumental work, blending Gothic and Art Nouveau styles. Under construction since 1882, it remains a symbol of innovation.
+      </p>
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="gallery-item">
+    <img src="versailles.jpg" alt="Palace of Versailles">
+    <div class="gallery-text">
+      <h2>Palace of Versailles, France</h2>
+      <p>
+        An iconic symbol of French Baroque architecture, built by Louis XIV, featuring the grand Hall of Mirrors and expansive gardens.
+      </p>
+    </div>
+  </div>
+
+  <!-- Item 4 -->
+  <div class="gallery-item">
+    <img src="taj_mahal.jpg" alt="Taj Mahal">
+    <div class="gallery-text">
+      <h2>Taj Mahal, India</h2>
+      <p>
+        Commissioned by Shah Jahan in 1632, this Mughal mausoleum is a symbol of eternal love, blending Persian and Indian architecture.
+      </p>
+    </div>
+  </div>
+
+  <!-- Item 5 -->
+  <div class="gallery-item">
+    <img src="eiffel_tower.jpg" alt="Eiffel Tower">
+    <div class="gallery-text">
+      <h2>Eiffel Tower, France</h2>
+      <p>
+        Built by Gustave Eiffel in 1889 for the World’s Fair, this wrought-iron structure is a global landmark and a symbol of Paris.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2025 Architecture Website | Showcasing iconic designs.
+  <p>
+    This page was last updated on 12 June 2025.<br>
+    Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply.<br>
+    <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a> | <a href="about.html">About Us</a> | 
+    <a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" target="_blank" rel="noopener noreferrer">Contact Us</a>
+  </p>
+</footer>
+
+
+</body>
+</html>
